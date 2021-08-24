@@ -5,36 +5,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/2398f11587.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
 </head>
 
 <body>
     <div class="container">
         <div class="weather-box">
-            <h1>Denver, CO</h1>
-            <ul>
-                <li>Sunday 10:00</li>
-                <li>Clear</li>
-            </ul>
-            <div class="row">
-                <div class="col-3">16°C | °F</div>
-                <div class="col-1"><i class="fas fa-sun"></i></div>
-                <div class="col-3">
-                    <ul>
-                        <li>Precipitation: 0%</li>
-                        <li>Humiditiy: 25%</li>
-                        <li>Wind: 10km/h</li>
-                    </ul>
+            <div class="current-weather-box">
+                <h1>Denver, CO</h1>
+                <ul>
+                    <li class="date">Sunday 10:00</li>
+                    <li class="condition">Clear</li>
+                </ul>
+                <div class="row">
+                    <div class="col-4 current-temp">
+                        16<span class="units">°C | °F</span>
+                    </div>
+                    <div class="col-4 current-forecast">
+                        <ul>
+                            <li>Precipitation: 0%</li>
+                            <li>Humiditiy: 25%</li>
+                            <li>Wind: 10km/h</li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <i class="fas fa-sun current-condition"></i>
+                    </div>
                 </div>
             </div>
-        </div>
-        <small><a href="https://github.com/korb1125/final-weather-app"
-          >Open-source code</a
-        >, by Koriander Baucom</small
-      >
+            <div class="row weather-forecast">
+                <div class="col day-1">
+                    <i class="fas fa-cloud cloudy"></i>
+                    <p>Mon</p>
+                    <p>65°F|50°F</p>
+                </div>
+                <div class="col day-2">
+                    <i class="fas fa-cloud cloudy"></i>
+                    <p>Tues</p>
+                    <p>68°F|62°F</p>
+                </div>
+                <div class="col day-3">
+                    <i class="fas fa-cloud-showers-heavy rainy"></i>
+                    <p>Wed</p>
+                    <p>65°F|55°F</p>
+                </div>
+                <div class="col day-4">
+                    <i class="fas fa-cloud-sun-rain drizzle"></i>
+                    <p>Thurs</p>
+                    <p>72°F|66°F</p>
+                </div>
+                <div class="col day-5">
+                    <i class="fas fa-cloud-sun partial"></i>
+                    <p>Fri</p>
+                    <p>75°F|68°F</p>
+                </div>
+                <div class="col day-6">
+                    <i class="fas fa-sun sunny"></i>
+                    <p>Sat</p>
+                    <p>78°F|72°F</p>
+                </div>
+                <div class="col day-7">
+                    <i class="fas fa-sun sunny"></i>
+                    <p>Sun</p>
+                    <p>85°F|78°</p>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <small><a href="https://github.com/korb1125/final-weather-app"
+            >Open-source code</a
+          >, by Koriander Baucom</small
+        >
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>

@@ -1,0 +1,145 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.weather-box {
+    border: 1px solid;
+    margin: 0 auto;
+    height: 600px;
+    width: 800px;
+    padding: 70px;
+    border-radius: 30px;
+    background-image: url("mountain-backdrop.jpg");
+    background-size: 900px;
+}
+
+.current-weather-box {
+    border: 1px solid;
+    height: 300px;
+    width: 650px;
+    border-radius: 30px;
+    padding: 40px;
+    background-color: rgba(238, 235, 235, 0.1);
+}
+
+.date {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.current-temp {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.units {
+    position: relative;
+    font-size: 16px;
+    top: -40px;
+}
+
+.current-forecast {
+    padding: 0;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.current-condition {
+    font-size: 140px;
+    margin-top: -42px;
+}
+
+.weather-forecast {
+    column-gap: 5px;
+    margin-top: 55px;
+    font-weight: 700;
+}
+
+.day-1 {
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(238, 235, 235, 0.1);
+    padding-top: 5px;
+}
+
+.day-2 {
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(238, 235, 235, 0.1);
+    padding-top: 5px;
+}
+
+.day-3 {
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(238, 235, 235, 0.1);
+    padding-top: 5px;
+}
+
+.day-4 {
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(238, 235, 235, 0.1);
+    padding-top: 5px;
+}
+
+.day-5 {
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(238, 235, 235, 0.1);
+    padding-top: 5px;
+}
+
+.day-6 {
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(238, 235, 235, 0.1);
+    padding-top: 5px;
+}
+
+.day-7 {
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(238, 235, 235, 0.1);
+    padding-top: 5px;
+}
+
+.cloudy {
+    font-size: 35px;
+}
+
+.rainy {
+    font-size: 35px;
+}
+
+.drizzle {
+    font-size: 35px;
+}
+
+.partial {
+    font-size: 35px;
+}
+
+.sunny {
+    font-size: 35px;
+}
+
+.source {
+    text-align: center;
+}

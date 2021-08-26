@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/2398f11587.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
 </head>
@@ -19,20 +21,20 @@
     <div class="container">
         <div class="weather-box">
             <div class="current-weather-box">
-                <h1>Denver, CO</h1>
+                <h1 id="city">Denver, CO</h1>
                 <ul>
                     <li class="date">Sunday 10:00</li>
-                    <li class="condition">Clear</li>
+                    <li class="condition" id="description">Clear</li>
                 </ul>
                 <div class="row">
                     <div class="col-4 current-temp">
-                        16<span class="units">°C | °F</span>
+                        <span id="temperature"> 16</span
+              ><span class="units">°C | °F</span>
                     </div>
                     <div class="col-4 current-forecast">
                         <ul>
-                            <li>Precipitation: 0%</li>
-                            <li>Humiditiy: 25%</li>
-                            <li>Wind: 10km/h</li>
+                            <li>Humiditiy: <span id="humidity">25%</span></li>
+                            <li>Wind: <span id="speed">10</span>km/h</li>
                         </ul>
                     </div>
                     <div class="col-4">

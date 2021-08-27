@@ -53,15 +53,15 @@ li {
     font-weight: 700;
 }
 
-.current-condition {
-    font-size: 140px;
-    margin-top: -42px;
-}
-
 .weather-forecast {
     column-gap: 5px;
     margin-top: 55px;
     font-weight: 700;
+}
+
+.current-condition {
+    width: 200px;
+    margin: -52px;
 }
 
 .day-1 {

@@ -21,6 +21,16 @@
     <div class="container">
         <div class="weather-box">
             <div class="current-weather-box">
+                <form id="search-form">
+                    <div class="row">
+                        <div class="col-6">
+                            <input class="form-control" type="search" placeholder="Enter a city..." autofocus="on" autocomplete="off" id="city-input" />
+                        </div>
+                        <div class="col-3 seach-form">
+                            <input type="submit" value="Search" class="search-btn" />
+                        </div>
+                    </div>
+                </form>
                 <h1 id="city">Denver, CO</h1>
                 <ul>
                     <li class="date">Last updated <span id="date"></span></li>

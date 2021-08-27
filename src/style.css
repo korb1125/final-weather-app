@@ -61,6 +61,17 @@ li {
     position: relative;
     font-size: 16px;
     top: -40px;
+    text-decoration: none;
+}
+
+.current-temp .active {
+    color: #000;
+    cursor: default;
+    text-decoration: none;
+}
+
+.current-temp .active:hover {
+    text-decoration: none;
 }
 
 .current-forecast {

@@ -81,93 +81,24 @@ li {
 }
 
 .weather-forecast {
-    column-gap: 5px;
     margin-top: 55px;
     font-weight: 700;
+}
+
+.daily-forecast {
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(238, 235, 235, 0.1);
+    padding-top: 5px;
+    width: 87px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .current-condition {
     width: 215px;
     margin-left: -55px;
     margin-top: -100px;
-}
-
-.day-1 {
-    border: 1px solid;
-    border-radius: 30px;
-    text-align: center;
-    background-color: rgba(238, 235, 235, 0.1);
-    padding-top: 5px;
-}
-
-.day-2 {
-    border: 1px solid;
-    border-radius: 30px;
-    text-align: center;
-    background-color: rgba(238, 235, 235, 0.1);
-    padding-top: 5px;
-}
-
-.day-3 {
-    border: 1px solid;
-    border-radius: 30px;
-    text-align: center;
-    background-color: rgba(238, 235, 235, 0.1);
-    padding-top: 5px;
-}
-
-.day-4 {
-    border: 1px solid;
-    border-radius: 30px;
-    text-align: center;
-    background-color: rgba(238, 235, 235, 0.1);
-    padding-top: 5px;
-}
-
-.day-5 {
-    border: 1px solid;
-    border-radius: 30px;
-    text-align: center;
-    background-color: rgba(238, 235, 235, 0.1);
-    padding-top: 5px;
-}
-
-.day-6 {
-    border: 1px solid;
-    border-radius: 30px;
-    text-align: center;
-    background-color: rgba(238, 235, 235, 0.1);
-    padding-top: 5px;
-}
-
-.day-7 {
-    border: 1px solid;
-    border-radius: 30px;
-    text-align: center;
-    background-color: rgba(238, 235, 235, 0.1);
-    padding-top: 5px;
-}
-
-.cloudy {
-    font-size: 35px;
-}
-
-.rainy {
-    font-size: 35px;
-}
-
-.drizzle {
-    font-size: 35px;
-}
-
-.partial {
-    font-size: 35px;
-}
-
-.sunny {
-    font-size: 35px;
-}
-
-.source {
-    text-align: center;
 }

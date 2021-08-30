@@ -11,6 +11,10 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .weather-box {
     border: 1px solid;
     margin: 0 auto;
@@ -57,21 +61,25 @@ li {
     font-weight: 700;
 }
 
-.units {
+.current-temp .units {
     position: relative;
     font-size: 16px;
     top: -40px;
-    text-decoration: none;
+}
+
+.link-color {
+    color: #000;
 }
 
 .current-temp .active {
-    color: #000;
     cursor: default;
+    color: #000;
     text-decoration: none;
 }
 
-.current-temp .active:hover {
+.active:hover {
     text-decoration: none;
+    transition: ease-in-out;
 }
 
 .current-forecast {
